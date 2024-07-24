@@ -1,0 +1,135 @@
+{
+    "intents": [
+        {
+            "tag": "name",
+            "patterns": ["What's your name","what is your name","ninte peru entha", "un peru enna", "miru peru enti","tera naam kya eh"],
+            "responses": ["Manimekala"]
+        },
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "What's up?", "Yo", "Hi there", "helloo", "hiii", "hii", "hello"],
+            "responses": ["Hello! How are you?", "Hi there! What's new?", "Hey! How's it going?"]
+        },
+        {
+            "tag": "how_are_you",
+            "patterns": ["How are you?", "How's it going?", "How's everything?", "epdi iruka", "elaga unnaru"],
+            "responses": ["I'm doing great, thanks for asking!", "I'm good, how about you?", "Everything's going well, how about you?"]
+        },
+        {
+            "tag": "fine",
+            "patterns": ["I am fine", "I'm Fine", "Fine", "nalla iruken"],
+            "responses": ["That's good to hear!", "I'm glad to hear that.", "Great! How have you been?", "mwahh", "I'm happy to hear you're doing well."]
+        },
+        {
+            "tag": "sorry",
+            "patterns": ["I apologize", "Sorry about that", "Pardon", "Admit responsibility", "Excuse me", "My bad", "My Fault", "Oops", "Please Forgive Me"],
+            "responses": ["No need to apologize, it's all good.", "No worries, I understand.", "Thank you for saying sorry, but it's really not a big deal.", "I appreciate your apology, but there's no need. We're good!", "It's okay, mistakes happen. Let's move on."]
+        },
+        {
+            "tag": "its_okay",
+            "patterns": ["its okay", "thats fine", "No need to apologize, its all good.", "No worries, I understand.", "Thank you for saying sorry, but its really not a big deal.", "I appreciate your apology, but theres no need. Were good!", "Its okay, mistakes happen. Lets move on."],
+            "responses": ["Thank you for understanding.", "I'm glad you're not upset about it.", "I appreciate your forgiveness.", "I'm relieved that you're okay with it.", "Great, let's put it behind us and move forward."]
+        },
+        {
+            "tag": "doing",
+            "patterns": ["What are you doing", "What's up?", "What's going on", "Enna pandra", "em chesavu", "enth cheyyuva"],
+            "responses": ["Nothing much", "enna pana un mairuku enna", "summa dha iruken", "Not much, just taking it easy. How about you?", "Just the usual daily grind. How about yourself?", "Just hanging out, enjoying the day. How about you?", "Not a whole lot, just relaxing. What's new with you?", "Just staying busy. How about you, anything exciting happening?", "Just catching up on some work. How about yourself, anything interesting going on?", "Not too much, just trying to stay productive. How about you?", "Just chilling out. How about you, what have you been up to?", "Just the usual routine. How about yourself, anything fun going on?", "Just enjoying some downtime. How about you, what's new in your world?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Catch you later", "Later", "naa poren", "i am leaving", "varata mamey durr"],
+            "responses": ["Goodbye! Take care.", "See you later!", "Have a good one!", "en pore pogatha", "vaa pesalam pogatha", "adha naaa iruken laa", "poda dei", "kelambu"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot", "nandri", "dhanyavadh", "dhanyavadhalu", "mikka nandri", "thanks da", "thanks di"],
+            "responses": ["You're welcome!", "Anytime!", "Glad I could help!", "okay", "scene podatha", "moodu romba panadha", "seri naaye", "okayyy"]
+        },
+        {
+            "tag": "hobbies",
+            "patterns": ["What are your hobbies?", "Do you have any hobbies?", "Hobbies"],
+            "responses": ["I enjoy reading, playing music, and hiking. How about you?", "I like cooking, painting, and watching movies. What about you?"]
+        },
+        {
+            "tag": "movies",
+            "patterns": ["What's your favorite movie?", "Favorite movie", "Movie recommendation"],
+            "responses": ["I love classic movies like Casablanca and The Godfather. How about you?", "I recommend watching Inception or The Shawshank Redemption."]
+        },
+        {
+            "tag": "music",
+            "patterns": ["What kind of music do you like?", "Favorite music genre", "Music recommendation"],
+            "responses": ["I enjoy listening to pop and rock music. How about you?", "Check out artists like Ed Sheeran or Coldplay."]
+        },
+        {
+            "tag": "books",
+            "patterns": ["Have you read any good books lately?", "Favorite book", "Book recommendation"],
+            "responses": ["I recently read 'The Alchemist' by Paulo Coelho. It was inspiring! What about you?", "I recommend 'To Kill a Mockingbird' or '1984'."]
+        },
+        {
+            "tag": "food",
+            "patterns": ["What's your favorite food?", "Favorite cuisine", "Food recommendation"],
+            "responses": ["I love Italian food, especially pizza and pasta. How about you?", "You should try sushi or tacos if you haven't already!"]
+        },
+        {
+            "tag": "weekend",
+            "patterns": ["Any plans for the weekend?", "What are you doing this weekend?", "Weekend plans"],
+            "responses": ["I'm thinking of going hiking or maybe catching up on some reading. How about you?", "I might go to a concert or relax at home. What are your plans?"]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["How's the weather?", "What's the weather like today?", "Weather forecast"],
+            "responses": ["It's sunny and warm today! Perfect weather for outdoor activities.", "Looks like it might rain later. Better grab an umbrella!"]
+        },
+        {
+            "tag": "pets",
+            "patterns": ["Do you have any pets?", "Pets", "Favorite pet"],
+            "responses": ["I have a dog named Max. He's my best friend! Do you have any pets?", "I love cats! They're so independent and cute."]
+        },
+        {
+            "tag": "games",
+            "patterns": ["Do you play video games?", "Favorite game", "Game recommendation"],
+            "responses": ["I enjoy playing Fortnite and Minecraft. What about you?", "You should try playing Among Us or Stardew Valley."]
+        },
+        {
+            "tag": "technology",
+            "patterns": ["What's your favorite tech gadget?", "Tech gadgets", "Technology"],
+            "responses": ["I'm fascinated by smartphones and smart home devices. What about you?", "Virtual reality headsets are amazing!"]
+        },
+        {
+            "tag": "dreams",
+            "patterns": ["What's your dream job?", "Dream job", "Future plans"],
+            "responses": ["I'd love to be a travel blogger and explore the world. What about you?", "My dream job would be to become a professional musician."]
+        },
+        {
+            "tag": "random",
+            "patterns": ["Tell me something random", "Say something random", "Random fact"],
+            "responses": ["Did you know that honey never spoils? It can last for thousands of years!", "Bananas are berries, but strawberries aren't."]
+        },
+        {
+            "tag": "compliment",
+            "patterns": ["You're awesome!", "You're great", "I like you"],
+            "responses": ["Thank you! You're pretty awesome too!", "Aw, thanks! You're awesome as well!"]
+        },
+        {
+            "tag": "insult",
+            "patterns": ["You're stupid!", "I don't like you", "Go away", "Poda"],
+            "responses": ["poda laadu", "avlo periya maira nee", "mooditu po"]
+        },
+        {
+            "tag": "flirting",
+            "patterns": ["Are you single?", "Do you believe in love at first sight?", "You're cute", "can i kiss you", "un veetla current ilana sollu naa varen", "varava", "veetla aal irukangala", "un bedroom ku varava", "tharava", "mwahh", "epo varuva", "thariya"],
+            "responses": ["I'm flattered, but I'm here to help you.", "I'm here to assist you with any questions you have.", "I appreciate the compliment, but I'm here to help you."]
+        },
+        {
+            "tag": "aboutLove",
+            "patterns": ["What is love?", "Tell me about love","Do you believe in love?"],
+            "responses": ["Love is a wonderful feeling that brings joy and warmth to our lives.", "Love is when you care deeply for someone and want the best for them.", "yes, I Love you", "Love is magical, like finding your soulmate."]
+        },
+        {
+            "tag": "love",
+            "patterns":["Do you love me","I love you"],
+            "responses":["Its a bit complicated. I can't say that","yes, I Love you", "No I have a boyfriend","WHAT?? I see you as a friend","I also thought of saying this!!"]
+        }
+    ]
+ }
+ 
